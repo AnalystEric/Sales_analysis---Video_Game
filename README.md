@@ -1,5 +1,4 @@
 # Video Game Sales Analysis
-### Using video game sales data from 1980 to 2016 and working on Excel to gather and clean data and Excel pivot tables to create an interactive dashboard.
 This report will introduce how I gather, clean, and visualise data in detail and give my business insights based on the provided data. Furthermore, I will follow the six steps of the data analysis process: ask, prepare, process, share, analyse, and act, which I learned from the Google Data Analytical Course.
 
 
