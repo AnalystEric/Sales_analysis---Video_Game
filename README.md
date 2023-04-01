@@ -8,35 +8,35 @@ This analysis aims to discover the trend of game sales worldwide by different re
 
 ## Step 1: Ask
 
-In this process, we need to ask effective questions, define the problem, use structured thinking, and communicate with others to thoroughly understand the business context and the need of my stakeholders.
+In this process, we need to ***ask effective questions, define the problem, use structured thinking, and communicate with others*** to thoroughly understand the business context and the need of my stakeholders.
 
 In real life, a manager might give the analyst some problems and needs that must be solved beforehand. As a result, I imagine some of the problems and needs they might provide. They required me to create an interactive dashboard to show the trend of game sales worldwide by different regions, genres, and platforms from 1980 to 2016.
 
-Below are the requirements of the dashboard:
+**Below are the requirements of the dashboard:**
 
-* 1. The dashboard must let users choose a specific year, region, platform, and genre to compare sales trends.
+* The dashboard must let users choose a specific year, region, platform, and genre to compare sales trends. 
 
-* 2. The dashboard must contain the top 5 game genres by sales in descending order corresponding to a chosen year, region, or platform.
+* The dashboard must contain the top 5 game genres by sales in descending order corresponding to a chosen year, region, or platform.
 
-* 3. The dashboard must contain the top 5 platforms by sales in descending order corresponding to a chosen year, region, or genre.
+* The dashboard must contain the top 5 platforms by sales in descending order corresponding to a chosen year, region, or genre.
 
-* 4. The dashboard must contain the percentage of the sales of game genres and platforms corresponding to a chosen year and region.
+* The dashboard must contain the percentage of the sales of game genres and platforms corresponding to a chosen year and region.
 
-Below are the questions we need to answer after creating the dashboard:
+**Below are the questions we need to answer after creating the dashboard:**
 
-* 1. Which market has the highest video game sales from 1980 to 2016?
+* Which market has the highest video game sales from 1980 to 2016?
 
-* 2. What are the total sales of the top 5 game genres and top 5 platforms worldwide from 1980 to 2016?
+* What are the total sales of the top 5 game genres and top 5 platforms worldwide from 1980 to 2016?
 
-* 3. What are the top 5 game genres in different regions from 1980 to 2016?
+* What are the top 5 game genres in different regions from 1980 to 2016?
 
-* 4. Analyse the total sales trend worldwide from 1980 to 2016 and determine what happened during the specific period.
+* Analyse the total sales trend worldwide from 1980 to 2016 and determine what happened during the specific period.
 
 ## Step 2: Prepare
 
-In this process, we must understand how data is generated and collected. The dataset is from Kaggle, containing a list of video games with sales of over 100,000 copies. A scrape of vgchartz.com generated it. There is only one file and one worksheet for this dataset. After downloading it, I opened the file and created a duplicate worksheet to avoid messing up the original worksheet. I will be working on the duplicate worksheet as the primary analysis worksheet.
+In this process, we must ***understand how data is generated and collected.*** The dataset is from Kaggle, containing a list of video games with sales of over 100,000 copies. A scrape of vgchartz.com generated it. There is only one file and one worksheet for this dataset. After downloading it, I opened the file and created a duplicate worksheet to avoid messing up the original worksheet. I will be working on the duplicate worksheet as the primary analysis worksheet.
 
-Below is the description of the field:
+**Below is the description of the field:**
 
 · Rank — Ranking of overall sales
 
@@ -66,7 +66,7 @@ The worksheet looks like this. If you keep scrolling down, you can see the remai
 
 ## Step 3: Process
 
-In this process, we will use Excel to clean up the data and maintain data integrity. Here are the steps I used to clean up data and ensure data integrity.
+In this process, we will use Excel to ***clean up the data and maintain data integrity.*** Here are the steps I used to clean up data and ensure data integrity.
 
 1. Opened the duplicate worksheet on excel and named it as Working Sheet.
 
@@ -76,7 +76,7 @@ In this process, we will use Excel to clean up the data and maintain data integr
 
 ## Step 4: Analyse
 
-In this process, I need to collect the data I need for analysis, format and adjust data to make it easier to work with. Thus, I need to think about the elements of the dashboard we would like to create. To begin with, I would like to insert slicers to filter regions, platforms, and genres to connect graphs to offer a user-friendly dashboard. Unluckily, the areas should be in the same column to insert a slicer to filter regions’ sales. The given dataset shows sales in different areas in different columns. As a result, we need to reorganise the dataset. To solve this problem, I created a pivot table to demonstrate total sales by years, platforms, and regions.
+In this process, I need to ***collect the data I need for analysis, format and adjust data to make it easier to work with.*** Thus, I need to think about the elements of the dashboard we would like to create. To begin with, I would like to insert slicers to filter regions, platforms, and genres to connect graphs to offer a user-friendly dashboard. Unluckily, the areas should be in the same column to insert a slicer to filter regions’ sales. The given dataset shows sales in different areas in different columns. As a result, we need to reorganise the dataset. To solve this problem, I created a pivot table to demonstrate total sales by years, platforms, and regions.
 
 The pivot table looks like this:
 
@@ -104,33 +104,36 @@ Now, the dataset is ready to be visualised.
 ![Screenshot 2023-04-01 at 21 04 51](https://user-images.githubusercontent.com/127030648/229311850-14ffe2b7-8a26-429b-87e4-195c841079bc.png)
 
 
-Feel free to use the interactive dashboard.
-https://uob-my.sharepoint.com/:x:/g/personal/ug21827_bristol_ac_uk/ERi1Zf5Cn-hFuh1u5oj4xUEBO51lgx2TYG4TKzzvLhL51Q?rtime=spkmVHoi20g
+Feel free to use the interactive [dashboard.](https://uob-my.sharepoint.com/:x:/g/personal/ug21827_bristol_ac_uk/ERi1Zf5Cn-hFuh1u5oj4xUEBO51lgx2TYG4TKzzvLhL51Q?rtime=spkmVHoi20g)
 
 In this process, we will look at the finished dashboard and analyse the game sales based on the dashboard.
 
-Here are the descriptions of each element in the finished dashboard:
+***Here are the descriptions of each element in the finished dashboard:***
 
-The bar chart in the upper left corner shows the total sales in the chosen year, region, game genre and platform.
-The pie chart demonstrates the percentage of the total sales in the chosen year, region, game genre and platform.
-The bar chart in the middle of the dashboard illustrates the total sales of the top 5 game genres in the chosen region, year, and platform.
-The bar chart in the upper right corner shows the total sales of the top 5 game platforms in the chosen region, year, and genre.
-The slicers on the left can be used to filter conditions.
-The line chart shows the total sales and the sales trends from 1980 to 2016 in the chosen year, region, genre, and platform.
+* The bar chart in the upper left corner shows the total sales in the chosen year, region, game genre and platform.
+* The pie chart demonstrates the percentage of the total sales in the chosen year, region, game genre and platform.
+* The bar chart in the middle of the dashboard illustrates the total sales of the top 5 game genres in the chosen region, year, and platform.
+* The bar chart in the upper right corner shows the total sales of the top 5 game platforms in the chosen region, year, and genre.
+* The slicers on the left can be used to filter conditions.
+* The line chart shows the total sales and the sales trends from 1980 to 2016 in the chosen year, region, genre, and platform.
 The below timeline can be used to filter years.
+
 Analysis of the game sales based on the dashboard:
 
-Which market has the highest sales of video games from 1980 to 2016?
+### _Which market has the highest sales of video games from 1980 to 2016?_
+![Screenshot 2023-04-01 at 21 27 07](https://user-images.githubusercontent.com/127030648/229312596-31d893ad-7d4f-410c-8c01-0e7a49ed5e56.png)
 
 
 The charts above show the total sales and the percentage in four regions from 1980 to 2016. North America was the most profitable market from 1980 to 2016. It made the most significant fraction with 4.3K million, followed by Europe, Japan, and other countries, which produced 2.4K million, 1.3K million and 790 million, respectively. Interestingly, the total sales of North America are around as many as the total of the other three variables. Furthermore, North America comprised 49% of total sales globally, followed by 27%, 14.6% and 9% for Europe, Japan, and other countries.
 
-What are the total sales of the top 5 game genres and top 5 platforms worldwide from 1980 to 2016?
+### _What are the total sales of the top 5 game genres and top 5 platforms worldwide from 1980 to 2016?_
+![Screenshot 2023-04-01 at 21 27 14](https://user-images.githubusercontent.com/127030648/229312606-c18f29b0-e1e0-4682-8c9f-68a03ccdd5e3.png)
 
 
 The above bar charts show the total sales of the top 5 game genres and platforms worldwide between 1980 and 2016. As we can see, the most popular game genre was Action, followed by Sports, Shooter, and Role-Playing and Platform. It is worth noting that the gaming platforms — PS2 and PS3 from Sony — occupy first and third place in the total sales of the top 5 gaming platforms list.
 
-What are the top 5 game genres in different regions from 1980 to 2016?
+### _What are the top 5 game genres in different regions from 1980 to 2016?_
+![Screenshot 2023-04-01 at 21 27 33](https://user-images.githubusercontent.com/127030648/229312634-e368544b-483b-4b8f-94d4-1b980416e87c.png)
 
 
 Top 5 game genres worldwide: Action, Sports, Shooter, Role-Playing, and Platform.
@@ -145,12 +148,15 @@ Top 5 game genres in other countries: Action, Sports, Shooter, Racing, and Misc.
 
 Notably, the top 5 game genres of Europe and Other are the same, and Japan was the only one with Role-Playing in the list. Furthermore, the Japanese were less interested in the Shooter game than other regions. Apart from Japan, the first, second, third and fifth most popular game genres were identical in all three markets.
 
-Analyse the total sales trend worldwide from 1980 to 2016 and determine what happened during the specific period.
+### _Analyse the total sales trend worldwide from 1980 to 2016 and determine what happened during the specific period._
+![Screenshot 2023-04-01 at 21 28 10](https://user-images.githubusercontent.com/127030648/229312651-3646b1ca-2387-48b2-a8f2-5b426036d284.png)
 
 
 The line graph above illustrates the total sales worldwide from 1980 to 2016. The peak of worldwide sales happened in 2008, selling 680 million. However, after reaching the mountain, the total sales dropped rapidly and plummeted from 2015 to 2016. Compared to the entire global sales in 2015, which were 264 million, the total sales in 2016 were only 70 million, around four times lesser than in 2015.
 
-From 1980 to 1995 there was a steady increase in total sales, while from 1995 to 1996 there was a sudden tripling of total sales. To find out the total sales in 1995 and 1996 to process a deeper analyse, we need to use the timeline to filter out other years, except for 1995 and 1996.
+![Screenshot 2023-04-01 at 21 28 21](https://user-images.githubusercontent.com/127030648/229312766-458a35ab-2b4a-46e9-aeb2-5f9bf03f8242.png)
+
+If we look further, we will notice from 1980 to 1995 a steady increase in total sales, while from 1995 to 1996 there was a sudden tripling of total sales. To find out the total sales in 1995 and 1996 to process a deeper analyse, we need to use the timeline to filter out other years, except for 1995 and 1996.
 
 
 Japan was the biggest game market in 1995, while in 1996, North America surpassed Japan’s total sales to become the world’s largest market for game sales. In 1996, total sales in North America and Europe were more than three times larger than their total sales in 1995. Furthermore, the global game sales on the PS platform rose around three times, and the game sales on the GB platform grew twelve times from 1995 to 1996, which was an impressive growth.
