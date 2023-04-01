@@ -61,6 +61,7 @@ Below is the description of the field:
 · Global_Sales — Total worldwide sales.
 
 The worksheet looks like this. If you keep scrolling down, you can see the remaining rows.
+![Screenshot 2023-04-01 at 20 59 43](https://user-images.githubusercontent.com/127030648/229311757-e1150ec9-c959-4546-a6e7-428460a28194.png)
 
 
 ## Step 3: Process
@@ -79,6 +80,9 @@ In this process, I need to collect the data I need for analysis, format and adju
 
 The pivot table looks like this:
 
+![Screenshot 2023-04-01 at 21 03 20](https://user-images.githubusercontent.com/127030648/229311798-ea29489b-49ee-477a-9b71-325b9f95d4cc.png)
+
+
 
 Next, we must copy and paste them to a new worksheet named Year & Genre & Platform.
 
@@ -91,13 +95,18 @@ Secondly, I want to insert a timeline to connect different graphs for users to c
 
 The finished dataset looks like this:
 
+![Screenshot 2023-04-01 at 21 03 27](https://user-images.githubusercontent.com/127030648/229311802-900a3c0f-352c-4284-9f6e-239a7335568b.png)
+
 
 Now, the dataset is ready to be visualised.
 
 ## Step 5: Share & Act
+![Screenshot 2023-04-01 at 21 04 51](https://user-images.githubusercontent.com/127030648/229311850-14ffe2b7-8a26-429b-87e4-195c841079bc.png)
 
 
 Feel free to use the interactive dashboard.
+https://uob-my.sharepoint.com/:x:/g/personal/ug21827_bristol_ac_uk/ERi1Zf5Cn-hFuh1u5oj4xUEBO51lgx2TYG4TKzzvLhL51Q?rtime=spkmVHoi20g
+
 In this process, we will look at the finished dashboard and analyse the game sales based on the dashboard.
 
 Here are the descriptions of each element in the finished dashboard:
