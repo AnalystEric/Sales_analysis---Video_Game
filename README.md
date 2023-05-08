@@ -103,7 +103,7 @@ Now, the dataset is ready to be visualised.
 ![Screenshot 2023-04-01 at 21 04 51](https://user-images.githubusercontent.com/127030648/229311850-14ffe2b7-8a26-429b-87e4-195c841079bc.png)
 
 
-Feel free to use the interactive [dashboard.](https://uob-my.sharepoint.com/:x:/g/personal/ug21827_bristol_ac_uk/ERi1Zf5Cn-hFuh1u5oj4xUEBO51lgx2TYG4TKzzvLhL51Q?rtime=spkmVHoi20g)
+Feel free to use the interactive [dashboard.](https://drive.google.com/file/d/1TyvKj6bC_H_KmO1usCnEbz_DJqJffJKK/view)
 
 In this process, we will look at the finished dashboard and analyse the game sales based on the dashboard.
 
