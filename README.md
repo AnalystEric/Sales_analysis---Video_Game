@@ -1,4 +1,4 @@
-# Video Game Sales Analysis
+# <p align="center">Video Game Sales Analysis</p> 
 This report will introduce how I gather, clean, and visualise data in detail and give my business insights based on the provided data. Furthermore, I will follow the six steps of the data analysis process: ask, prepare, process, share, analyse, and act, which I learned from the Google Data Analytical Course.
 
 ![Screenshot 2023-07-05 at 12 13 16](https://github.com/AnalystEric/Sales_analysis---Video_Games/assets/127030648/5bdbde56-7018-4271-9f46-a7053fd7c5e9)
